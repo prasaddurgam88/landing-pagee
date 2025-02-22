@@ -1,0 +1,194 @@
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #1c1a1a;
+  line-height: 1.6;
+  }
+  body { 
+    background-image:url(../../../../Downloads/pexels-te-lensfix-380994-1371360.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+   } 
+  
+  header {
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+    color: #100e0e;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background: #e56850;
+    color: #171515;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #ff4a3d;
+  }
+  
+  nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(202, 104, 104, 0.987);
+  }
+  
+  nav .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  nav .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav .nav-links li {
+    margin-left: 20px;
+  }
+  
+  nav .nav-links a {
+    color: #f1e9e9;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .card p {
+    font-size: 1rem;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color:#fff;
+    
+  
+  }
+
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact input, .contact textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact button {
+    background: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .contact button:hover {
+    background: #e67660;
+  }
+  
+  /* Footer */
+  footer {
+    background: #df6c55;
+    color: #f2eaea;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
